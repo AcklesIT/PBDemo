@@ -1,0 +1,13 @@
+option java_package = "com.pb";
+
+message MobilePhone {
+	required string brand = 1;
+	required HardWare hardWare = 2;
+	repeated string software = 3;
+}
+
+message HardWare {
+	required int32 rom = 1;
+	required int32 ram = 2;
+	required int32 size = 3;
+}
