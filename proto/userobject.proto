@@ -1,0 +1,7 @@
+syntax = "proto3";
+option java_package = "com.pb";
+
+message User {
+	int32 uid = 1;
+	string name = 2;
+}
